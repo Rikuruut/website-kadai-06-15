@@ -271,6 +271,22 @@ body {
     text-align: center;
     font-size: 13px;
 }
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 16px;
+}
+.footer-menu a {
+    color: #4a5fc1;
+    text-decoration: none;
+}
+.footer-menu a:hover {
+    opacity: 0.6;
+}
 
 /*--------------------------
 スマートフォン
